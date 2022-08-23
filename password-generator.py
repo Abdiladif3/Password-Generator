@@ -32,7 +32,7 @@ for i in range(nr_numbers):
   pass_numbers = random.choice(numbers)
   password += pass_numbers
   
-print(password)
+print(f"Your password is: {password}")
 ''
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
@@ -54,5 +54,5 @@ for i in range(nr_numbers):
 password_list = list(password)
 random.shuffle(password_list)
 shuffled_password = "".join(password_list)
-print(shuffled_password)
+print(f"Your password is: {shuffled_password}")
 ''
